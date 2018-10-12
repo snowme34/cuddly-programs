@@ -1,0 +1,5 @@
+a = list()
+a = input()
+# a.append([int(x) for x in input().split()])
+a = sorted(a)
+print(a)

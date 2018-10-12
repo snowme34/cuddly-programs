@@ -1,0 +1,1 @@
+FOR /F "tokens=*" %%G IN ('dir /b *.mkv') DO (ffmpeg -i "%%G" -vn -acodec aac "%%~nG.m4a")
