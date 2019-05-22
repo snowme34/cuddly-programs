@@ -3,6 +3,8 @@ rem use ffmpeg to extract audio from videos
 rem brute force for mp4, mkv, webm, flv
 rem audio in m4a format
 rem output will be in .\extract\ subdirectory
+rem ffmpeg -i input.mkv -vn -acodec libopus -b 96000 output.ogg
+rem ffmpeg -i input.mkv -vn -acodec libopus -b 48000 output.ogg
 
 set ex="extract"
 
