@@ -1,6 +1,5 @@
 setup() {
-  touch data_racing_bash_output
-  echo -n '' > data_racing_bash_output
+ :> data_racing_bash_output
 }
 
 write() {
